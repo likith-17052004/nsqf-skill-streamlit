@@ -1,0 +1,1 @@
+!pip install qdrant-client google-generativeai
