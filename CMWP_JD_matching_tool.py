@@ -5,7 +5,6 @@ import google.generativeai as genai
 import pandas as pd
 import time
 import matplotlib.pyplot as plt
-import plotly.graph_objects as go
 
 # --- Setup ---
 QDRANT_URL = "SECRET_QDRANT_URL"
