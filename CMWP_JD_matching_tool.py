@@ -6,6 +6,9 @@ import pandas as pd
 import time
 import matplotlib.pyplot as plt
 
+SECRET_QDRANT_URL = st.secrets["qdrant"]["url"]
+SECRET_QDRANT_API_KEY = st.secrets["qdrant"]["api_key"]
+GEMINI_API_KEY = st.secrets["gemini"]["api_key"]
 # --- Setup ---
 QDRANT_URL = "SECRET_QDRANT_URL"
 QDRANT_API_KEY = "SECRET_QDRANT_API_KEY"
