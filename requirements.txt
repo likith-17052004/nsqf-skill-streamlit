@@ -1,3 +1,4 @@
 qdrant-client 
 google-generativeai
 matplotlib
+plotly
